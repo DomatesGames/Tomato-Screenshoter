@@ -32,10 +32,11 @@ pyautogui. screenshot ("screenshot.png")
 Nice!
 
 Maybe the user wants to name the screenshot herself/himself.
-import pyautogui
+```import pyautogui
 import time
 waiting = int(input("Waiting time: "))
 name = input("Name of the Screenshot? ")
 time.sleep(waiting)
 pyautogui.screenshot(name + ".png")
+```
 Done now! Very nice!
