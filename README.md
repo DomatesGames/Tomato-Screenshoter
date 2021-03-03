@@ -5,6 +5,7 @@ Most people search like this:
 How to take make create write screenshot in Python, How to create make write take screenshoter screenshot with Python 3
 
 Actually it's easy to take screenshots with PyAutoGUI.
+(before type ```pip install PyAutoGUI``` in cmd/terminal)
 ```
 import PyAutoGUI 
 pyautogui.screenshot("screenshot.png")
